@@ -1,5 +1,6 @@
 package tv.muli.muligateway.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author jory
  * @date 2019-03-20
  */
+@Slf4j
 @RestController
 public class AliveController {
 
