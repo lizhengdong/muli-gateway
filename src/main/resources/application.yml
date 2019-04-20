@@ -1,0 +1,12 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: muli-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: minio_route
+          uri: http://minio.muli.tv
+          predicates:
+            - Path=/minio/**,/mini/**
