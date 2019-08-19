@@ -7,7 +7,7 @@ public interface RequestConstant {
     String UA_IPHONE = "iphone";
     String UA_ANDROID = "android";
     String UA_IPAD = "ipad";
-    String PC_PREFIX = "/pc-fe";
-    String MOBILE_PREFIX = "/m-fe";
+    String PC_PREFIX = "/pc";
+    String MOBILE_PREFIX = "/m";
 
 }
